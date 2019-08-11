@@ -1,0 +1,6 @@
+framework module Pods_StoryMirrorUITests {
+  umbrella header "Pods-StoryMirrorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
