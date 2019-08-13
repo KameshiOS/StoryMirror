@@ -8,6 +8,7 @@ target 'StoryMirror' do
   # Pods for StoryMirror
 	pod 'IQKeyboardManager'
 	pod 'lottie-ios'
+  pod 'SDWebImage', '~> 5.0'
   target 'StoryMirrorTests' do
     inherit! :search_paths
     # Pods for testing

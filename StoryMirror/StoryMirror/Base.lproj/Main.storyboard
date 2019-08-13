@@ -323,6 +323,21 @@
                                                                 <constraint firstItem="ZZH-mu-RLr" firstAttribute="top" secondItem="PPW-v0-YQs" secondAttribute="bottom" id="xzw-Mv-jpy"/>
                                                             </constraints>
                                                             <size key="customSize" width="385" height="220"/>
+                                                            <connections>
+                                                                <outlet property="bookImage" destination="ubt-9e-CAf" id="Xbi-yh-S4e"/>
+                                                                <outlet property="bookTitleLabel" destination="os8-Cd-dkY" id="lr7-g6-ZLW"/>
+                                                                <outlet property="followerCountLabel" destination="6kv-Nw-eK6" id="vzr-V4-6Ef"/>
+                                                                <outlet property="genre1Label" destination="WXU-nZ-txB" id="4HE-XV-g5t"/>
+                                                                <outlet property="genre1View" destination="ryZ-fq-emO" id="lfI-QZ-3Zc"/>
+                                                                <outlet property="genre2Label" destination="JPR-FH-2QV" id="aeu-eg-HqB"/>
+                                                                <outlet property="genre2View" destination="ST1-1A-9Jt" id="8xE-MS-3QB"/>
+                                                                <outlet property="genre3Label" destination="Glg-Y7-bwh" id="fEo-yg-MWa"/>
+                                                                <outlet property="genre3View" destination="qOf-MM-x9t" id="EXP-kd-qvG"/>
+                                                                <outlet property="moreLabel" destination="7yM-Qy-LmR" id="NuK-uN-dCD"/>
+                                                                <outlet property="promoMSGLabel" destination="PPW-v0-YQs" id="h7P-Tb-nAT"/>
+                                                                <outlet property="readTimeLabel" destination="cHL-MZ-H2H" id="5fY-aJ-qYK"/>
+                                                                <outlet property="viewsLabel" destination="2id-vA-vyA" id="ccj-CS-QhU"/>
+                                                            </connections>
                                                         </collectionViewCell>
                                                     </cells>
                                                     <connections>
@@ -382,8 +397,10 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
+                                            <outlet property="categoryLabel" destination="7HH-gg-3ng" id="Pep-aq-FWK"/>
                                             <outlet property="headerView" destination="JTb-cl-evj" id="ib1-pp-4hi"/>
                                             <outlet property="recommendCollection" destination="vSy-Nc-g1K" id="inz-x3-BVz"/>
+                                            <outlet property="subtitlLabel" destination="CVa-MO-oO3" id="H2c-Wa-1ea"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

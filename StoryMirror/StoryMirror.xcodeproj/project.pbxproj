@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		28FE198275118F184F96491D /* Pods_StoryMirror.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6705CB07F246B90EC8198 /* Pods_StoryMirror.framework */; };
 		722106C4402E0FAE439209B5 /* Pods_StoryMirrorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF087D5C2FB8A9549738C7A /* Pods_StoryMirrorUITests.framework */; };
+		8412F26A2302AE4500B53574 /* GetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412F2692302AE4500B53574 /* GetRequest.swift */; };
+		8412F26D2302B00300B53574 /* BooksVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412F26C2302B00300B53574 /* BooksVM.swift */; };
+		8412F26F2302B07400B53574 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412F26E2302B07400B53574 /* API.swift */; };
+		8412F2712302B18E00B53574 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412F2702302B18E00B53574 /* Book.swift */; };
 		848EB0DE22FD381C00CCA45A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EB0DD22FD381C00CCA45A /* AppDelegate.swift */; };
 		848EB0E322FD381C00CCA45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848EB0E122FD381C00CCA45A /* Main.storyboard */; };
 		848EB0E622FD381C00CCA45A /* StoryMirror.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848EB0E422FD381C00CCA45A /* StoryMirror.xcdatamodeld */; };
@@ -59,6 +63,10 @@
 		3A244C0E5452EA0FC6D689B6 /* Pods-StoryMirrorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryMirrorTests.debug.xcconfig"; path = "Target Support Files/Pods-StoryMirrorTests/Pods-StoryMirrorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AAC6346E4D73136AA759830 /* Pods-StoryMirror.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryMirror.debug.xcconfig"; path = "Target Support Files/Pods-StoryMirror/Pods-StoryMirror.debug.xcconfig"; sourceTree = "<group>"; };
 		83387DEFE431AA6AF5E08320 /* Pods-StoryMirrorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryMirrorUITests.debug.xcconfig"; path = "Target Support Files/Pods-StoryMirrorUITests/Pods-StoryMirrorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8412F2692302AE4500B53574 /* GetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequest.swift; sourceTree = "<group>"; };
+		8412F26C2302B00300B53574 /* BooksVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksVM.swift; sourceTree = "<group>"; };
+		8412F26E2302B07400B53574 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		8412F2702302B18E00B53574 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		848EB0DA22FD381C00CCA45A /* StoryMirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryMirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848EB0DD22FD381C00CCA45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848EB0E222FD381C00CCA45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -185,6 +193,7 @@
 		848EB10E22FD382700CCA45A /* Modal */ = {
 			isa = PBXGroup;
 			children = (
+				8412F2702302B18E00B53574 /* Book.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -192,6 +201,7 @@
 		848EB11022FD383500CCA45A /* ViewModal */ = {
 			isa = PBXGroup;
 			children = (
+				8412F26C2302B00300B53574 /* BooksVM.swift */,
 			);
 			path = ViewModal;
 			sourceTree = "<group>";
@@ -216,6 +226,8 @@
 				848EB11522FD38A900CCA45A /* GeneralVC.swift */,
 				848EB11822FD3E2400CCA45A /* StoryMirror-Bridging-Header.h */,
 				848EB12422FD4D6900CCA45A /* Loader.swift */,
+				8412F2692302AE4500B53574 /* GetRequest.swift */,
+				8412F26E2302B07400B53574 /* API.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -508,6 +520,7 @@
 			files = (
 				848EB13122FD6AEB00CCA45A /* ProfileVC.swift in Sources */,
 				848EB11C22FD43AA00CCA45A /* NavigationDesignController.swift in Sources */,
+				8412F2712302B18E00B53574 /* Book.swift in Sources */,
 				848EB13622FD86F600CCA45A /* RecommendedCollectionViewCell.swift in Sources */,
 				848EB12922FD6AA300CCA45A /* HomeVC.swift in Sources */,
 				848EB0E622FD381C00CCA45A /* StoryMirror.xcdatamodeld in Sources */,
@@ -520,6 +533,9 @@
 				848EB12B22FD6AB200CCA45A /* LibraryVC.swift in Sources */,
 				848EB12F22FD6ADC00CCA45A /* NotificationVC.swift in Sources */,
 				848EB13D22FDA41000CCA45A /* ViewBookTableViewCell.swift in Sources */,
+				8412F26F2302B07400B53574 /* API.swift in Sources */,
+				8412F26A2302AE4500B53574 /* GetRequest.swift in Sources */,
+				8412F26D2302B00300B53574 /* BooksVM.swift in Sources */,
 				848EB13422FD85CE00CCA45A /* RecommendedTableViewCell.swift in Sources */,
 				848EB13B22FDA3FC00CCA45A /* BookSelfCollectionViewCell.swift in Sources */,
 				848EB13822FD95B300CCA45A /* ViewRecommendedBooksVC.swift in Sources */,
